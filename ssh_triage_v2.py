@@ -36,6 +36,9 @@ with open("auth.log") as file:
 for ip, user in breached_events:
   print(f"🚨 CRITICAL: {ip} achieved a successful login as '{user}' after brute-force attempts")
 
+import anthropic
+client = anthropic.Anthropic(api_key=api_key)
+
 prompt_text = f"""
 Here is SOC log data:
 Events: {events}
