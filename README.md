@@ -1,4 +1,4 @@
-# SSH Log Triage Tool (v1 — Rule-Based)
+# SSH Log Triage Tool 
 
 A Python script that parses SSH authentication logs to detect brute-force login attempts and flag compromised accounts. Built as a hands-on SOC analyst portfolio project, focused on understanding log analysis fundamentals before layering AI on top in a future version.
 
